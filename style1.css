@@ -1,0 +1,617 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  
+
+} body{
+    background-image: linear-gradient(to right, #8ebcd8, #eb9290);
+}
+
+
+.navbar{
+
+ background-image: linear-gradient(to right, #8ebcd8, #eb9290);
+
+}
+
+
+.navbar-brand{
+color: darkmagenta;
+}
+
+.main{
+ margin-top: -20px;
+    background:url(djimages/dj-playing-music-mixer.jpg) no-repeat;
+    background-size: cover;
+    background-size: cover;
+    height: 80vh;
+    width:100%;
+    background-position:50% 50%;
+   
+}
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Lobster&family=Monoton&family=Ramabhadra&family=Rubik+Moonrocks&family=Yatra+One&display=swap');
+.djname{
+    font-family: 'Kalam', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Monoton', cursive;
+    font-family: 'Ramabhadra', sans-serif;
+    font-family: 'Rubik Moonrocks', cursive;
+    font-family: 'Yatra One', cursive;
+    font-size: 72px;
+  background: -webkit-linear-gradient(rgb(94, 171, 222), rgb(255, 252, 252),rgb(226, 46, 226));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes textShine {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+@media screen and (max-width:720px) {
+    .djname{
+        font-family: 'Kalam', cursive;
+
+        font-family: 'Monoton', cursive;
+        font-family: 'Ramabhadra', sans-serif;
+        font-family: 'Rubik Moonrocks', cursive;
+        font-family: 'Yatra One', cursive;
+        font-size: 35px;
+        background: -webkit-linear-gradient(rgb(222, 215, 94), rgb(165, 76, 76));
+
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .naam{
+      display: none;
+    }
+   
+  
+}
+.aboutdj h1{
+    font-family: 'Kalam', cursive;
+
+    font-family: 'Monoton', cursive;
+    font-family: 'Ramabhadra', sans-serif;
+    font-family: 'Rubik Moonrocks', cursive;
+    font-family: 'Yatra One', cursive;
+    font-size: 36px;
+    color: brown;
+    text-align: center;
+}
+div.scroll-container {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+  }
+  
+  div.scroll-container img {
+    padding: 10px;
+  }
+ 
+  .main h3{
+    color: azure;
+font-size: 50px;
+font-weight: 600;
+font-family: 'Yatra One', cursive;
+background: linear-gradient(
+    to right,
+    #7953cd 20%, #c0cdd2 30%,
+    #92c738 70%, #e73987 80%
+);
+-webkit-background-clip: text;
+background-clip: text;
+-webkit-text-fill-color: transparent;
+text-fill-color: transparent;
+background-size: 500% auto;
+animation: textShine 5s ease-in-out infinite alternate;
+
+  }
+.skills{
+list-style: circle red;
+    color: rgb(242, 239, 234);
+    font-size: medium;
+    font-weight: 400;
+    margin-left:70px ;
+    font-size: 35px;
+    font-family: 'Yatra One', cursive;
+    
+  }
+  .jw{
+    color: aqua;
+  }
+  
+  .book:hover{
+    color: rgb(242, 239, 234);
+    text-decoration: none;
+  }
+  @media screen and (max-width:720px) {
+    .skills{
+        list-style: circle red;
+            color: rgb(228, 216, 199);
+            font-size: medium;
+            font-weight: 400;
+            margin-left:60px ;
+            font-size: 25px;
+            font-family: 'Yatra One', cursive;
+            
+          }
+          .join{
+            font-size: 27px;
+          }
+  }
+  .aboutdj p{
+    font-size:20px;
+    margin-top: 20px;
+    font-weight:100;
+    font-family: 'Yatra One', cursive;
+    
+  }
+  .aboutdj{
+    background-image: linear-gradient(to right, #8ebcd8, #eb9290);
+  }
+  .imgg{
+ 
+    height: 400px;
+    width: 100%;
+    object-fit: contain;
+filter: grayscale(20%);
+
+    }
+    .audios h2{
+        color: crimson;
+        font-family: 'times', cursive;
+    }
+    .audios h6{
+   color: rgb(6, 6, 6);
+   /* padding-bottom: 20px; */
+   font-family:cursive ;
+   font-weight: 600;
+font-size: 20px;
+}
+    .audios img{
+        height: 100px;
+        width: 100px;
+       margin-left: 5px;
+      
+       }
+       .audios {
+background-image: linear-gradient(to bottom right,rgb(163, 159, 159), rgb(176, 121, 58),rgb(163, 159, 159));
+}
+
+
+.footer p a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size:18px;
+    line-height: 6 px;
+}
+.fab {
+    font-size: 35px;
+    margin: 10px;
+    cursor: pointer;
+}
+.fb:hover{
+    color: rgb(33, 125, 255);
+}
+.ig:hover{
+    color: rgb(243, 106, 225);
+}
+.tw:hover{
+    color: rgb(6, 236, 25);
+}
+.g:hover{
+    color: rgb(234, 14, 14);
+}
+.tg:hover{
+    color: rgb(6, 144, 236);
+}
+.fas{
+    font-size: 25px;
+   
+};
+.card-body:hover{
+    
+}
+.harry{
+    color:salmon;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+}
+.footer h1{
+    font-size: 70px;
+}
+.footer input{
+    height: 45px;
+    width: 500px;
+    border-radius: 50px;
+    /* text-align: center; */
+    outline: none;
+    border: 2px white solid;
+    background-color: black;
+    color: rgb(247, 245, 245);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+    
+}
+#mailid::placeholder {
+    text-align:right(20px);
+    margin-left: 3px;
+    color: rgb(196, 169, 169);
+}
+.btn2{
+    height: 45px;
+    width: 100px;
+    border-radius: 50px;
+    text-align: center;
+    color:whitesmoke;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 2px;
+    background-color: hotpink;
+    margin-left: -40px;
+    outline: none;
+    border: 2px white solid;
+}
+.btn2:visited{
+    background-color:rebeccapurple;
+}
+.Social {
+    margin-left: 200px;
+}
+.care{
+    margin-top: 2em;
+    margin-left: 200px;
+   
+    line-height: 26px;
+}
+.care p{
+    font-family: monospace;
+    font-size: 23px;
+}
+.care p:hover{
+    text-decoration: underline wheat 2px;
+}
+.lastbtn{
+    border-radius: 40px;
+    height: 30px;
+    width: 130px;
+    font-weight: 100;
+font-size: 18px;
+margin-left: 500px;
+text-align-last: center;
+outline:snow 2px solid;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.icos{
+color: white;
+}
+@media screen and (max-width:720px) {
+    .footer h1{
+        font-size: 35px;
+    }
+    .footer input{
+     width: 200px;
+    }
+    .btn2{
+       
+    }
+    .Social {
+        margin-left: 0px;
+    }
+    .care{
+        margin-top: 2em;
+        margin-left: 10px;
+       
+        line-height: 26px;
+    }
+    
+
+
+.audios h2{
+    color: crimson;
+    
+}
+.audios h6{
+    display: flex;
+color: rgb(255, 255, 255);
+
+
+font-family: 'Yatra One', cursive;
+font-weight: 600;
+text-align: center;
+margin-left: 90px;
+font-size: 30px;
+}
+.audios img{
+    display: none;
+
+margin-top: 30px;
+    height: 50px;
+    width: 50px;
+   margin-left: 5px;
+   columns: 1;
+  
+   }
+   .audios {
+
+    display: flexbox;  
+    flex-direction: row;
+background-image: linear-gradient(to bottom right,rgb(163, 159, 159), rgb(176, 121, 58),rgb(163, 159, 159));
+}
+.navbar-nav{
+   text-align: start;
+
+}
+.navi h3{
+    font-size: 0px;
+}
+
+}
+.navi{
+    background-color: rgb(180, 180, 203);
+}
+.navi h3{
+    color: lemonchiffon;
+    font-weight: 700;
+font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+.navbar-nav{
+    font-size: 22px;
+    color: black;
+   margin:30px;
+   margin-bottom: 30px;
+   font-family: 'Courgette', cursive;
+   margin-left: 30px;
+
+}
+@media screen and (max-width:720px) {
+    .navi h3{
+        color: lemonchiffon;
+        font-weight: 600;
+    font-size: 27px;
+    margin-left: -25px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    
+    }
+    .navi a{
+       
+        font-weight: 500;
+        font-family: 'Courgette', cursive;
+    margin-left: 10px;
+    }
+    .navi img{
+        margin-left:-20px;
+    }
+    #navbarCollapse .nav-link{
+        margin-left: 0px;
+    }
+    #navbarCollapse .btn{
+        width: 100px;
+    
+  line-height: 2ch;
+    }
+
+    .navi span{
+        
+    }
+    .logoss{
+        display: none;
+    }
+    .navbar-toggler{
+       outline: darkslateblue;
+    }
+    .imgg{
+ 
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
+    filter: grayscale(20%);
+}
+.navi a{
+    color: moccasin;
+    font-weight: 500;
+    font-family: 'Courgette', cursive;
+/* margin-left: 50px; */
+}
+/* #navbarCollapse .nav-link{
+    margin-left: 50px;
+} */
+#navbarCollapse .btn{
+    width: 150px;
+    
+}
+.navbar-toggler{
+    outline: none;
+}}
+
+#navbarCollapse .nav-link{
+    margin-left: 50px;
+    font-weight: lighter;
+    font-family: 'Kalam', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Monoton', cursive;
+    font-family: 'Ramabhadra', sans-serif;
+    font-family: 'Rubik Moonrocks', cursive;
+    font-family: 'Yatra One', cursive;
+}
+#navbarCollapse .btn{
+    width: 150px;
+    
+}
+.navi h3{
+    font-family: 'Kalam', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Monoton', cursive;
+    font-family: 'Ramabhadra', sans-serif;
+    font-family: 'Rubik Moonrocks', cursive;
+    font-family: 'Yatra One', cursive;
+}
+.card-body:hover{
+    -webkit-box-shadow: 0px -20px 76px -3px rgba(128,111,128,1);
+    -moz-box-shadow: 0px -20px 76px -3px rgba(128,111,128,1);
+    box-shadow: 0px -20px 76px -3px rgba(128,111,128,1);
+transition: 0.8s; 
+}
+.img-fluid ,.col-md-4 {
+    /* background-color: blue;
+  overflow: hidden;
+  height: 400px;
+  width: 300px; */
+
+}
+
+.trend img{
+    height: 220px;
+    width: 180px;
+    object-fit: cover;
+    margin: 10px;
+}
+.trend1 img{
+    height: 250px;
+    width: 200px;
+    object-fit: cover;
+    margin: 20px;
+}
+
+.card{
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.card:hover{
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+.trending h1{
+    font-family: 'Crete Round', serif;
+}
+.order{
+    
+}
+
+
+/* @media (max-width: 900px) {
+    .naam{
+        display: none;
+    }
+    .dabba img{
+       display: none;
+       overflow: hidden;
+    }
+
+    .dabba{
+      display: none;
+      
+
+    }
+
+} */
+    
+.card:hover{
+    /* -webkit-box-shadow: 14px 7px 5px 0px rgb(138, 122, 138);
+    -moz-box-shadow: 14px 7px 5px 0px rgba(128,111,128,1);
+    box-shadow: 0px -14px 56px 14px rgba(128,111,128,1); */
+   
+    -webkit-box-shadow: 0px -20px 76px -3px rgba(128,111,128,1);
+    -moz-box-shadow: 0px -20px 76px -3px rgba(128,111,128,1);
+    box-shadow: 0px -20px 76px -3px rgba(128,111,128,1);
+transition: 0.8s; 
+}
+.healthy{
+    color: rgb(61, 127, 61);
+    font-weight: 700;
+    font-family: 'Kalam', cursive;
+
+}
+.cart{
+    height: 30px;
+    width: 30px;
+    overflow:hidden;
+    top: 10px;
+
+}
+.about p{
+    text-align: justify;
+    float: right;
+    font-size: 18px;
+    font-weight: 200;
+    font-family:'Times New Roman', Times, serif;
+    
+    
+}
+.shadowbox:hover{
+    -webkit-box-shadow: 0px -20px 76px -3px rgba(128,111,128,1);
+    -moz-box-shadow: 0px -20px 76px -3px rgba(128,111,128,1);
+    box-shadow: 0px -20px 76px -3px rgba(128,111,128,1);
+transition: 0.8s; 
+}
+.heroin img{
+    height: 330px;
+    width: 330px;
+    margin: 20px;
+
+    object-fit: cover;
+}
+.heroin{
+    margin: 0px;
+    
+}
+.Apple{
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(/img/holding\ apple.webp) no-repeat;
+    
+    background-size:cover;
+    height:80vh;
+    width: 100%;
+    image-resolution: 100px;
+    color: bisque;
+    font-family: cursive;
+}
+.Apple button{
+background-color: #974343;
+font-weight: bolder;
+font-size: 20px;
+font-family: 'Times New Roman', Times, serif;
+
+}
+.healthy1{
+    font-size: 40px;
+    background: -webkit-linear-gradient(rgb(227, 225, 218), rgb(28, 208, 136));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.trending h6{
+    font-size: 16px;
+color: white;
+font-weight: 300;
+font-family: 'Yatra One', cursive;
+}
+.healthy{
+    background: -webkit-linear-gradient(rgb(232, 44, 66), rgb(9, 73, 249));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.copy{
+ 
+    text-shadow:
+      0 0 7px rgb(5, 4, 4),
+      0 0 10px rgb(196, 195, 195),
+      0 0 21px #fff,
+      0 0 42px rgb(255, 51, 0),
+      0 0 82px rgb(201, 122, 102),
+      0 0 92px rgb(199, 149, 87),
+      0 0 102px rgb(215, 105, 46),
+      0 0 151px rgba(255, 89, 0, 0.854);
+}
